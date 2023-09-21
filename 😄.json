@@ -326,6 +326,124 @@ NokiaN97-1/20.0.019;Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KH
       "style":{ "type":"rect", "ratio":0.8 },
       "jar": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;eea22614c071a32c3624ca99691f491a"
     },{
+{"key":"csp_Aid","name":"🚑︎急救指南","type":3,"api":"csp_FirstAid","searchable":1,"quickSearch":1,"changeable":0,"style": { "type": "rect", "ratio": 3.8},
+"jar":"https://qu.ax/dDSz.jpg;md5;510FA1663F7067BD4D40DE06097202BF"},
+{"key":"荐片","name":"📀荐片影视","type":3,"api":"https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js","playerType":1,"searchable":1,"quickSearch":1,"ext":"https://qu.ax/GWWS.js"},
+{ "key":"sp360",
+      "name":"360影视|解析",
+      "type":3,
+      "api":"csp_Sp360",
+      "searchable":1,
+      "filterable":1,
+      "changeable":1,
+      "jar":"https://qu.ax/TpCJ.txt"},
+ {
+"ext": "eyJhcGlLZXkiOiIxNWJjMjRjYS00ODBhLTQ1ODktOWFmYi02ZjJmMmNjYjk4MGYiLCJhcGkiOiJodHRwOi8vMjE4Ljc5LjExNi45OjkyNDUifQ==",
+"filterable": 1,
+"quickSearch": 1,
+"name": "小雅",
+"viewType": {
+"style": {
+"type": "rect","ratio":0.8
+}
+},
+"changeable": 0,
+"jar": "https://qu.ax/COZf.png",
+"api": "csp_XiaoYa",
+"type": 3,
+"key": "csp_XiaoYa",
+"searchable": 1
+},
+
+    {
+            "key": "libvio影视",
+            "name": "蚂蚁视频",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "分类url": "https://libvio.top/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3"
+            }
+        },
+        {
+            "key": "1080dyw",
+            "name": "1080电影屋",
+            "type": 3,
+            "api": "https://qu.ax/oux.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "host": "https://www.1080dyw.cc/api.php/v1.vod"
+            }
+        },{
+            "key": "69mj",
+            "name": "69美剧",
+            "type": 3,
+            "api": "https://qu.ax/oux.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "host": "https://www.69mj.com/xgapp.php/v1.vod"
+            }
+        },
+    {
+            "key": "YingShi",
+            "name": "海外看影视",
+            "type": 3,
+            "api": "csp_YingShi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "url": "https://www.yingshi.tv/",
+      "style":{ "type":"rect", "ratio":0.8 },
+      "jar": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;eea22614c071a32c3624ca99691f491a"
+    },
+{
+      "key": "csp_腾讯",
+      "name": "腾讯",
+      "type": 1,
+      "playerType": 2,
+      "api": "http://tvbox-1-g5221611.deta.app/vod/qq",      
+      "playUrl": "json:http://221.229.173.30:8808/jhjson/daoyongsiquanjia.php?url=",
+      "categories": [
+        "电影",
+        "电视剧",
+        "动漫",
+        "综艺"
+      ]
+    },  {
+			"key": "py_央视片库",
+			"name": "🌏cctv片库",
+			"type": 3,"playerType":2,
+			"api": "py_cctv",
+			"ext": "https://gitcode.net/m0_73989217/ymz/-/raw/master/JS/%E5%A4%AE%E8%A7%86%E7%89%87%E5%BA%93.py"
+		},
+		{
+      "key": "星星",
+      "name": "星视界 | 海外",
+      "type": 3,
+      "api": "csp_Star",
+      "searchable": 1,
+      "changeable": 1,
+      "style":{ "type":"rect", "ratio":0.8 },
+      "jar": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;eea22614c071a32c3624ca99691f491a"
+    },
+    {
+       "key":"星影1080cms",
+       "name":"星影1080 | APP",
+       "type":1,
+       "api":"https://www.xy1080.net/api.php/provide/vod",
+       "searchable":1,
+       "quickSearch":1
+    },
        "key":"萌番",
        "name":"⭐️萌番 | 动漫",
        "type":1,
